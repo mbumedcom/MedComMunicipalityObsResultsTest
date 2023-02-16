@@ -1,6 +1,6 @@
-Profile: MedComCoreServiceRequest
+Profile: MedComObservationServiceRequest
 Parent: ServiceRequest
-Id: medcom-core-servicerequest
+Id: medcom-observation-servicerequest
 Title: "MedComCoreServiceRequest"
 Description: "Care related record of request af diagnostic investigations."
 * requisition 1..1 MS

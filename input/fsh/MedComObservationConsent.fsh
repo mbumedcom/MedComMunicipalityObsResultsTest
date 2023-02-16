@@ -1,6 +1,6 @@
-Profile: MedComcoreConsent
+Profile: MedComObservationConsent
 Parent: Consent
-Id: MedComcoreConsent
+Id: MedComObservationConsent
 Title: "MedComcoreConsent"
 Description: "Delcaration of consent "
 * status MS
