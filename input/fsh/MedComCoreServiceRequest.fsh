@@ -4,7 +4,14 @@ Id: medcom-core-servicerequest
 Title: "MedComCoreServiceRequest"
 Description: "Care related record of request af diagnostic investigations."
 * requisition 1..1 MS
+* subject 1.. MS
+* subject only Reference(MedComCorePatient)
+* subject ^type.aggregation = #bundled
 * occurrence[x] 1..1 MS
 * occurrence[x] only occurrenceDateTime   
+* requester 1..1 MS
+* requester only Referance(MedComCorePractitioner)
+* performer  MS
 * performer only Referance(MedComCorePractitioner or MedcomCoreOrganization)
+* performer ^type.aggregation = #bundled
 * note 1.. MS 
