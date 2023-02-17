@@ -7,9 +7,8 @@ Description: "Care related record of request af diagnostic investigations."
 * subject 1..1 MS
 * subject only Reference(MedComCorePatient)
 * subject ^type.aggregation = #bundled 
+* occurrence[x]
 * requester 1..1 MS
 * requester only Reference(MedComCorePractitioner)
 * performer MS
-* performer only Reference(MedComCorePractitioner or MedComCoreOrganization)
-* performer ^type.aggregation = #bundled
 * note 1.. MS 
