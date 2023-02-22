@@ -7,5 +7,5 @@ Description: "A  sample to be used for analysis during the course of treatment "
 * subject 1..1 MS
 * subject only Reference(MedComCorePatient)
 * subject ^type.aggregation = #bundled
-* collection.collected[x].Period MS
+
 
