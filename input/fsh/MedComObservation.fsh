@@ -15,5 +15,9 @@ Description: "General observation profile"
 * subject ^short = "Who is the observation about"
 * component 1.. MS
 * component.code MS
-* component.value[x] only Quantity 1..1 MS
+* component.value[x] MS
+* component.valueInteger MS
+* component.valueString MS
+// * component.value[valueString] MS
+// * component.value[valueInteger] MS
 * component.interpretation MS
